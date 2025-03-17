@@ -20,9 +20,18 @@ int main (){
         cout << "2. Luas Lingkaran" << endl;
         cout << "3. Keluar" << endl;
 
-        cout << "Pilihan (1/2/3) = ";
+        cout << "pilihan (1/2/3) = ";
         cin >> pilihan;
 
         switch (pilihan)
+        {
+            case 1:
+            cout << "Hitung luas persegi panjang " << endl;
+            cout << "Masukkan panjang = ";
+            cin >> Panjang;
+            cout << "Masukan lebar = ";
+            cin >> lebar;
+            cout << "Luas Persegi Panjang = " << LuasPersegiPanjang(Panjang, lebar) << endl;
+        }
     }
 }
