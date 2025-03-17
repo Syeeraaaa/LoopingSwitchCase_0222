@@ -39,6 +39,11 @@ int main (){
             cin >> jejari;
             cout << "Luas lingkaran = " << LuasLingkaran(jejari) <<endl;
             break;
+            case 3:
+            break;
+            default:
+            cout << "Pilihan salah, pilihlah harus di antara 1-3.";
+            break;
         }
-    }
+    }while (pilihan !=3);
 }
