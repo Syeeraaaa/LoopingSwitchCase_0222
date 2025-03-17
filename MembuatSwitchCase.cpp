@@ -8,3 +8,9 @@ float LuasPersegiPanjang(float a, float b){
  float LuasLingkaran (float a){
     return 3.14*a*a;
 }
+
+int main (){
+    int pilihan;
+    float Panjang, lebar;
+    float jejari;
+}
